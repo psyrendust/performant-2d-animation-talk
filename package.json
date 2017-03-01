@@ -1,0 +1,38 @@
+{
+  "name": "performant-2d-animation-talk",
+  "version": "1.0.0",
+  "description": "Performant 2D WebGL animations with PIXI.js talk for ForwardJS 6",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build"
+  },
+  "repository": "psyrendust/performant-2d-animation-talk",
+  "keywords": "2d, 60fps, animation, forwardjs, performance, pixi.js, requestAnimationFrame, tween.js, webgl",
+  "author": "Larry Gordon <lgordon@psyrendust.com> (https://github.com/psyrendust)",
+  "license": "MIT",
+  "bugs": "https://github.com/psyrendust/performant-2d-animation-talk/issues",
+  "homepage": "https://github.com/psyrendust/performant-2d-animation-talk#readme",
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.22.0",
+    "neutrino": "^4.2.0",
+    "neutrino-preset-web": "^4.2.0"
+  },
+  "dependencies": {
+    "eventemitter3": "^2.0.2",
+    "pixi.js": "^4.4.0"
+  },
+  "config": {
+    "neutrino": {
+      "entry": {
+        "vendor": [
+          "pixi.js"
+        ]
+      }
+    },
+    "presets": [
+      "neutrino-custom.js"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+*.diff
+*.err
+*.log
+*.orig
+*.patch
+*~
+.DS_Store
+/build
+/node_modules
